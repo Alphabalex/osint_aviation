@@ -1,0 +1,22 @@
+{
+    "name": "eaglewatch/aviation",
+    "autoload": {
+        "files": [
+            "helpers/helper.php"
+        ],
+        "psr-4": {
+            "Eaglewatch\\Aviation\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Balogun Abdulquddus",
+            "email": "babusunnah@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
