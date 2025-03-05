@@ -6,6 +6,6 @@ $params = [
     'iataCode' => 'JFK',
     'type' => 'departure',
 ];
-$request = new AviationStack();
+$request = new AviationStack("enter api key here");
 $data = $request->get(AviationStack::FLIGHT_TIMETABLE, $params);
 print_r($data);

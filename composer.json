@@ -1,9 +1,6 @@
 {
     "name": "eaglewatch/aviation",
     "autoload": {
-        "files": [
-            "helpers/helper.php"
-        ],
         "psr-4": {
             "Eaglewatch\\Aviation\\": "src/"
         }
@@ -18,5 +15,6 @@
     "require": {
         "php": ">=7.4",
         "guzzlehttp/guzzle": "^7.0.1"
-    }
+    },
+    "license": "MIT"
 }
